@@ -343,9 +343,7 @@ const _C = () => {
           style={{ display: 'none' }}
           onChange={saveFile}
         />
-        <Box
-          sx={{ mt: 2, border: '1px solid #eee', p: 2, borderRadius: '4px' }}
-        >
+        <Box sx={{ mt: 2 }}>
           <Table
             columns={columns}
             data={fileList}
